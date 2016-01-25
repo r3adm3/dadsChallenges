@@ -1,0 +1,29 @@
+
+//this is method will slow computer right down really quickly. 
+
+for ( 0 to n) {
+
+	if (isPrime (n))
+	{
+		console.log ( n is prime )
+	}
+
+
+}
+
+
+
+function isPrime(int){
+
+	isPrime = false
+ 	for (i = 1 to int){
+		if (int mod i = 0)
+		{
+		   isPrime=True
+		}
+		break;
+	}
+
+	
+
+}
